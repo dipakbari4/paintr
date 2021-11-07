@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'circle.dart';
+import 'arc.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           title: const Text("Paintr"),
         ),
         body: CustomPaint(
-          painter: Circle(),
+          painter: Arc(),
           child: Container(),
         ),
       ),
